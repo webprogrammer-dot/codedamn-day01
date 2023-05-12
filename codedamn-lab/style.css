@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+body{
+     height: 100vh;
+    background: #fafafa;
+    font-family: Cabin, sans serif;
+    font-size: 16px;
+    margin: 25px;
+    /* max-width: :800px; */
+}
+#main
+{
+    background: #ffffff;
+    border: 0.5px solid #e5e5e5;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+}
+.name
+{
+    margin: 0px;
+    display: flex;
+    padding: 10px;
+    float: left;
+    justify-content: flex-start;
+}
+.option
+{
+ display: flex;
+ 
+ justify-content: end;
+ margin: 0px;
+ padding: 10px;
+
+}
+
+.image
+{
+    margin: 5px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+img{
+      overflow: hidden; 
+    width: 100%;
+}
+
+.left
+{
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 5px 10px 10px 10px;
+
+}
+.left span{
+    padding: 5px;
+}
+.right
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 5px 10px 10px 10px;
+}
+.description
+{
+    padding: 10px;
+    display: block;
+}
+
+
